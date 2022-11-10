@@ -1,5 +1,5 @@
 const last = <T>(array:T[])=>{
-    return array[array.length]
+    return array[array.length - 1]
 }
 
 last([1,2,3,4])
